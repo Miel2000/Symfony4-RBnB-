@@ -20,13 +20,11 @@ class HomeController extends AbstractController
      * 
      */
 
-    public function hello($prenom = 'yeves' , $age = 0){
+    public function hello(){
 
         return $this->render('home/hello.html.twig', [
             'controller_name' => 'HomeController',
-            'prenom' => $prenom,
-            'age' => $age
-            
+     
         ]);
     }
     

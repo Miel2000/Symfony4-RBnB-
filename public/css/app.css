@@ -1,0 +1,21 @@
+div.ads_titre h1, div.ads_titre p {
+    color:white;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    
+}
+
+
+div.ads_titre {
+    padding: 5em;
+    background-size:cover;
+    background-position:center center;
+}
+
+div.container {
+    margin-top:20px;
+}
+
+div.carousel-caption {
+    color:white;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
